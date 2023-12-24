@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=""ja>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main2.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+        <from name="dentaku">
+            <table>
+                <tr>
+                    <td colspan="4" id="display" >0</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <button type="button" class="ac" onclick="get_calc(this)">AC</button>
+                    </td>
+                    <td>
+                        <button type="button" class="operator" onclick="get_calc(this)">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button"  onclick="get_calc(this)">7</button>
+                    </td>
+                    <td>
+                        <button type="button"  onclick="get_calc(this)">8</button>
+                    </td>
+                    <td>
+                        <button type="button"  onclick="get_calc(this)">9</button>
+                    </td>
+                    <td>
+                        <button type="button"  class="operator" onclick="get_calc(this)" >*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">4</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">5</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">6</button>
+                    </td>
+                    <td>
+                        <button type="button" class="operator" onclick="get_calc(this)">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">1</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">2</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">3</button>
+                    </td>
+                    <td>
+                        <button type="button" class="operator" onclick="get_calc(this)">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">0</button>
+                    </td>
+                    <td>
+                        <button type="button" onclick="get_calc(this)">00</button>
+                    </td>
+                    <td>
+                        <button type="button" class="oparater" onclick="get_calc(this)">.</button>
+                    </td>
+                    <td>
+                        <button type="button" class="operator" onclick="get_calc(this)">=</button>
+                    </td>
+                </tr>
+            </table>
+            <script src="main2.js"></script>
+        </from>
+    </body>
+</html>
